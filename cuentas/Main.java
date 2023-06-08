@@ -26,7 +26,7 @@ public class Main {
      * @param cuenta
      * @param cantidad
      * Funcion que se podria llamar desde el main
-     * Usa las funciones ingresar y retirar en el CCuenta propuesto  
+     * Usa la funcion retirar en el CCuenta propuesto  
      */
     public static void retirar_cuenta (CCuenta cuenta, float cantidad){
         try {
@@ -37,6 +37,12 @@ public class Main {
         }
         
     }
+    /**
+     * @param cuenta
+     * @param cantidad
+     * Funcion que se podria llamar desde el main
+     * Usa la funcion ingresar en el CCuenta propuesto  
+     */
     public static void ingresar_cuenta (CCuenta cuenta, float cantidad){
         try {
             System.out.println("Ingreso en cuenta");
